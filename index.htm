@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="top2"></div>
+    <div class="hero-header">
+      <div class="wrapper">
+        <header id="navigation-bar">
+          <div class="logo">
+            <i class="fa-solid fa-j"></i>
+            <div class="logo-text">Jc Rodriguez</div>
+          </div>
+          <nav>
+            <div class="togglebtn" onclick="toggleMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <ul class="navlinks">
+              <li><a href="#top2">Home</a></li>
+              <li><a href="#about-container1">About</a></li>
+
+              <li><a href="#contact-container2">Contact</a></li>
+            </ul>
+          </nav>
+          <script src="./script.js" ></script>
+        </header>
+        <div class="container">
+          <div class="hero-pic" id="hero-pic1">
+            <img src="jc1.jpg" alt="Profile Picss" />
+          </div>
+          <div class="hero-text">
+            <h5>Hi I'm <span>Frontend Developer</span></h5>
+            <h1>Jc Rodriguez</h1>
+            <p>
+              I am 21 years old, 2nd year student studying Bachelor of Science
+              in Information Technology in Dalubhasaang Lungsod ng Lucena.
+            </p>
+            <div class="btn-group">
+              <a href="Rodriguez.pdf" class="btn active" download
+                >Download CV</a
+              >
+              <a href="#contact-container2" class="btn">Contacts </a>
+            </div>
+            <div class="aboutme">
+              <label>Social Media:</label>
+            </div>
+            <div class="social">
+              <a href="https://www.facebook.com/JcRodriguez08" target="_blank"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/__jcrodriguez/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://github.com/jcodeeee" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="mailto:janmer082003@gmail.com" target="_blank"
+                ><i class="fa-solid fa-envelope" id="about-container1"></i
+              ></a>
+            </div>
+            <br />
+          </div>
+        </div>
+        <div class="about-container" id="about-container1">
+          <label for="" class="about-label">About Me</label>
+          <div class="about-container1">
+            <div class="photo"></div>
+            <p>
+              "I am a passionate front-end developer dedicated to creating
+              visually appealing, user-friendly, and responsive websites and
+              applications. With a strong foundation in modern web technologies
+              like HTML5, CSS3, JavaScript, and frameworks such as React and
+              Vue.js, I focus on delivering clean, efficient, and scalable code.
+              I thrive on turning complex design concepts into interactive
+              digital experiences, ensuring they are not only visually stunning
+              but also accessible and optimized for performance. Collaborating
+              with designers, back-end developers, and other stakeholders, I
+              bridge the gap between design and functionality to bring ideas to
+              life. Constantly learning and staying updated with the latest
+              trends in web development, I am committed to exploring innovative
+              solutions to enhance usability and create impactful user
+              experiences. Beyond coding, I value effective communication,
+              teamwork, and an agile approach to ensure the successful delivery
+              of projects."
+            </p>
+          </div>
+        </div>
+        <div class="contact-container" id="contact-container2">
+          <div class="contact-container1">
+            <div class="contact-input">
+              <label for="" class="contact-message">Message</label>
+              <br />
+              <label for="" class="label1">Name:</label>
+              <br />
+              <input type="text" class="input1" />
+              <br />
+              <label for="" class="label1">Email Address:</label>
+              <br />
+              <input type="text" class="input1" />
+              <br />
+              <label for="" class="label1">Subject:</label>
+              <br />
+              <input type="text" class="input1" />
+              <br />
+              <label for="" class="label1">Message:</label>
+              <br />
+              <textarea name="" id="" cols="72" rows="8"></textarea>
+              <input type="submit" class="submit-btn" />
+              <footer>
+                <p>&copy; 2024 SALAZAR. All Rights Reserved.</p>
+              </footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
